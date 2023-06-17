@@ -137,8 +137,8 @@ background-color: var(--main-light-bg);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--main-light-clr);
+    background-color: var(--accent-cl);
 }
 
 .btn:hover,
@@ -222,7 +222,7 @@ background-color: var(--main-light-bg);
 .link {}
 
 .footer-accent {
-    color: var(--accent-cl);
+    color: #f4f4fd;
 }
 
 .footer-text {
@@ -253,13 +253,13 @@ background-color: var(--main-light-bg);
     letter-spacing: 0.04em;
 }
 
-.btn{
+.portfolio-btn{
     color: var(--accent-cl);
     background-color: var(--additional-light-cl);
 }
 
-.btn:hover,
-.btn:focus{
+.portfolio-btn:hover,
+.portfolio-btn:focus{
     color: var(--main-light-clr);
     background-color: #404BBF;
 }
@@ -294,9 +294,8 @@ background-color: var(--main-light-bg);
 }
 .link {
 }
-.footer-accent {
-    color: var(--additional-light-cl);
-}
+.footer-accent {}
+
 .footer-text {
     color: var(--additional-light-cl);
 }
