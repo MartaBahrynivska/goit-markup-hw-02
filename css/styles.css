@@ -116,7 +116,7 @@ li{
 }
 
 .hero-title {
- 
+        text-align: center;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
@@ -145,7 +145,7 @@ li{
 .features-section {}
 
 .features-title {
-
+    text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -202,13 +202,24 @@ p {
 
 /* Our Team section */
 
-.team-section {}
+.team-section {
+    background-color: #F4F4FD;;
+}
 
-.team-title {}
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navcolor)
+}
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-img {}
 
