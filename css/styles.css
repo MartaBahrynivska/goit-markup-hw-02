@@ -222,7 +222,7 @@ background-color: var(--main-light-bg);
 .link {}
 
 .footer-accent {
-    color: #f4f4fd;
+    color: var(--additional-light-cl);
 }
 
 .footer-text {
