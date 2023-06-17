@@ -280,6 +280,7 @@ background-color: var(--main-light-bg);
 .subtitle {
 }
 .service-text {
+    color: var(--text-color);
 }
 
 /* Footer */
